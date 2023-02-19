@@ -1,0 +1,22 @@
+.slicky_container {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.slicky_img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.slicky_text_container {
+  color: white;
+}
+
+.slicky_element {
+  position: relative;
+}
+.slicky_text_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

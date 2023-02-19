@@ -1,0 +1,11 @@
+.CeoHello {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.CeoHello h1 {
+  text-align: center;
+}

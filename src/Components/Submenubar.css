@@ -1,0 +1,30 @@
+.Submenubar {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Submenubar ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Submenubar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 10px 20px;
+}
+
+.pink {
+  background-color: red;
+}
+.gray {
+  background-color: blue;
+}

@@ -1,0 +1,35 @@
+.Header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #262626;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.Header .logo_div {
+  padding: 12.805px 10px;
+}
+.Header .logo_div .logo_img {
+  width: 200px;
+}
+
+.Header ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 30px 20px;
+}

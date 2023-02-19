@@ -1,0 +1,19 @@
+.Footer {
+  margin: 0;
+  margin-bottom: -20px;
+
+  padding: 20px 20px;
+  background-color: #31383c;
+  color: white;
+  text-align: left;
+}
+
+.Footer h3 {
+  margin-top: 0;
+}
+.Footer p {
+  font-size: 10px;
+}
+.Footer p:last-child {
+  margin-bottom: 0;
+}

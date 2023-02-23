@@ -1,0 +1,30 @@
+.Strings {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.Strings h1 {
+  text-align: center;
+}
+
+.Strings img {
+  width: 100%;
+}
+
+.Strings h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.Strings ul {
+  margin-top: 0;
+  -webkit-padding-start: 20px;
+}
+
+.Strings li {
+  font-size: 20px;
+}

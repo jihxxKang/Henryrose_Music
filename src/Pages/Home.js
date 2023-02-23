@@ -3,7 +3,7 @@ import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import piano from "../img/piano.jpg";
-import flute from "../img/flute.jpg";
+import flute from "../img/flute_long.jpg";
 import violin from "../img/violin.jpg";
 import "./Home.css";
 

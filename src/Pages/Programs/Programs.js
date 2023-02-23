@@ -1,6 +1,7 @@
 import "./Programs.css";
 import Submenubar from "../../Components/Submenubar";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Programs() {
   const submenus = [
@@ -10,6 +11,10 @@ function Programs() {
     ["성악", "/programs/vocal"],
     ["입시레슨", "/programs/entrance"],
   ];
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/programs/piano");
+  }, []);
   return (
     <>
       <Submenubar submenus={submenus} />

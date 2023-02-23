@@ -1,0 +1,30 @@
+.Vocal {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.Vocal h1 {
+  text-align: center;
+}
+
+.Vocal img {
+  width: 100%;
+}
+
+.Vocal h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.Vocal ul {
+  margin-top: 0;
+  -webkit-padding-start: 20px;
+}
+
+.Vocal li {
+  font-size: 20px;
+}

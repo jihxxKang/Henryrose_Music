@@ -12,7 +12,7 @@ function Community() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/community/announcements");
-  }, []);
+  });
 
   return (
     <>

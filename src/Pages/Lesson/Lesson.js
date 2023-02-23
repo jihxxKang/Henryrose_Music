@@ -11,7 +11,7 @@ function Lesson() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/lesson/lesson_info");
-  }, []);
+  });
   return (
     <>
       <Submenubar submenus={submenus} />

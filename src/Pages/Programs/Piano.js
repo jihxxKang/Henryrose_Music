@@ -5,7 +5,7 @@ function Piano() {
   return (
     <div className="Piano">
       <br></br>
-      <img src={piano2} />
+      <img src={piano2} alt="" />
       <h2>피아노</h2>
       <ul>
         <br></br>

@@ -14,7 +14,7 @@ function Programs() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/programs/piano");
-  }, []);
+  });
   return (
     <>
       <Submenubar submenus={submenus} />

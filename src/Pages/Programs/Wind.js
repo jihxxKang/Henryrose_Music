@@ -8,7 +8,7 @@ function Wind() {
     <div className="Wind">
       {/* */}
       <br></br>
-      <img src={flute} />
+      <img src={flute} alt="" />
       <h2>플루트</h2>
       <ul>
         <br></br>
@@ -22,7 +22,7 @@ function Wind() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={clarinet} />
+      <img src={clarinet} alt="" />
       <h2>클라리넷</h2>
       <ul>
         <br></br>
@@ -34,7 +34,7 @@ function Wind() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={trumpet} />
+      <img src={trumpet} alt="" />
       <h2>트럼펫</h2>
       <ul>
         <br></br>

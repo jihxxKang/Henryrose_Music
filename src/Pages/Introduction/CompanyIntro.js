@@ -11,7 +11,7 @@ function CompanyIntro() {
       </h1>
       {/* */}
       <br></br>
-      <img src={piano2} />
+      <img src={piano2} alt="" />
       <h2>레슨</h2>
       <ul>
         <br></br>
@@ -26,7 +26,7 @@ function CompanyIntro() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={trumpet} />
+      <img src={trumpet} alt="" />
       <h2>콩쿠르</h2>
       <ul>
         <br></br>
@@ -38,7 +38,7 @@ function CompanyIntro() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={concert} />
+      <img src={concert} alt="" />
       <h2>연주회</h2>
       <ul>
         <br></br>

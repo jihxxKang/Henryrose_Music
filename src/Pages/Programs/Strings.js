@@ -8,7 +8,7 @@ function Strings() {
     <div className="Strings">
       {/* */}
       <br></br>
-      <img src={violin2} />
+      <img src={violin2} alt="" />
       <h2>바이올린</h2>
       <ul>
         <br></br>
@@ -23,7 +23,7 @@ function Strings() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={viola} />
+      <img src={viola} alt="" />
       <h2>비올라</h2>
       <ul>
         <br></br>
@@ -33,7 +33,7 @@ function Strings() {
       <br></br>
       <br></br>
       <br></br>
-      <img src={cello} />
+      <img src={cello} alt="" />
       <h2>첼로</h2>
       <ul>
         <br></br>

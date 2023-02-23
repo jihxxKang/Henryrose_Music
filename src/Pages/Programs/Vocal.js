@@ -5,7 +5,7 @@ function Vocal() {
   return (
     <div className="Vocal">
       <br></br>
-      <img src={chorus} />
+      <img src={chorus} alt="" />
       <h2>성악</h2>
       <ul>
         <br></br>

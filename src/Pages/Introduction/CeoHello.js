@@ -9,7 +9,7 @@ function CeoHello() {
         필수과정입니다."
       </h1>
       <br></br>
-      <img src={ceo_hello_edu} />
+      <img src={ceo_hello_edu} alt="" />
       <ul>
         <br></br>
         <li>

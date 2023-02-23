@@ -38,7 +38,7 @@ function Introduction() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/introduction/ceo_hello");
-  }, []);
+  });
 
   return (
     <>

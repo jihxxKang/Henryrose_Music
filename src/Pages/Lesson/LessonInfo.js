@@ -4,7 +4,7 @@ import table from "../../img/hand_table.jpg";
 function LessonInfo() {
   return (
     <div className="LessonInfo">
-      <img src={table} />
+      <img src={table} alt="" />
       <ul>
         <br></br>
         <li>

@@ -5,7 +5,7 @@ function Entrance() {
   return (
     <div className="Entrance">
       <br></br>
-      <img src={graduation} />
+      <img src={graduation} alt="" />
       <h2>입시레슨</h2>
       <ul>
         <br></br>

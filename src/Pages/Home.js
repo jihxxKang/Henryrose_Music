@@ -1,6 +1,6 @@
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import piano from "../img/piano.jpg";
 import flute from "../img/flute_long.jpg";
@@ -23,7 +23,7 @@ function Home() {
     <div className="slicky_container">
       <Slider {...settings}>
         <div className="slicky_element">
-          <img src={violin} className="slicky_img" />
+          <img src={violin} className="slicky_img" alt="" />
           <div className="slicky_text_container">
             <h1>헨리로즈 뮤직에 오신것을 환영합니다</h1>
             <h4>
@@ -38,7 +38,7 @@ function Home() {
           </div>
         </div>
         <div className="slicky_element">
-          <img src={flute} className="slicky_img" />
+          <img src={flute} className="slicky_img" alt="" />
           <div className="slicky_text_container">
             <h1>1:1 맞춤형 음악교육 방문레슨</h1>
             <h4>- 헨리로즈 뮤직의 체계적인 수업 커리큘럼</h4>
@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
         <div className="slicky_element">
-          <img src={piano} className="slicky_img" />
+          <img src={piano} className="slicky_img" alt="" />
           <div className="slicky_text_container">
             <h1>Henry Rose</h1>
             <h4>fhdgxcmhvjbknbn</h4>

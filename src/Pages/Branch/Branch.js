@@ -12,7 +12,7 @@ function Branch() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/branch/branch_info");
-  }, []);
+  });
 
   return (
     <>

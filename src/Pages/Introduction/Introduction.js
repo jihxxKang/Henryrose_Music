@@ -1,12 +1,17 @@
 import "./Introduction.css";
 import Submenubar from "../../Components/Submenubar";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
-function Introduction() {
+function Introduction({ isEntering }) {
   const submenus = [
-    ["CEO 인사말", "/introduction/ceo_hello/"],
-    ["회사소개", "/introduction/company_intro/"],
+    ["CEO 인사말", "/introduction/ceo_hello"],
+    ["회사소개", "/introduction/company_intro"],
   ];
+  const navigate = useNavigate();
+  if (isEntering) {
+    isEntering = false;
+    return () => navigate("./ceo_hello");
+  }
   return (
     <>
       <Submenubar submenus={submenus} />

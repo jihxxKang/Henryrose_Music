@@ -9,3 +9,15 @@
 .CeoHello h1 {
   text-align: center;
 }
+
+.CeoHello img {
+  width: 100%;
+}
+
+.CeoHello ul {
+  -webkit-padding-start: 20px;
+}
+
+.CeoHello li {
+  font-size: 20px;
+}

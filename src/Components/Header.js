@@ -18,7 +18,7 @@ function Header() {
       </div>
       <ul>
         <li>
-          <NavLink to="/introduction/ceo_hello" style={getLinkStyle}>
+          <NavLink to="/introduction" style={getLinkStyle} isEntering={true}>
             회사소개
           </NavLink>
         </li>

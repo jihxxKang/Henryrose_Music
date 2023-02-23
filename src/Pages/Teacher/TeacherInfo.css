@@ -1,0 +1,11 @@
+.TeacherInfo img {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.TeacherInfo .bar {
+  background-color: #9b2122;
+  color: white;
+  padding: 16px 0px;
+  font-size: 28px;
+}
